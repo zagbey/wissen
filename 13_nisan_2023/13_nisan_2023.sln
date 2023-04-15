@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop(döngüler)", "Loop(döngüler)\Loop(döngüler).csproj", "{9E618745-1005-4C5B-8231-452226F64AE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "üçe bölünebilen sayılar", "üçe bölünebilen sayılar\üçe bölünebilen sayılar.csproj", "{FDA37F24-2B4D-4F8D-8D64-45B4EB1F53BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 faktöriyel sorusu", "5 faktöriyel sorusu\5 faktöriyel sorusu.csproj", "{34D22490-6382-41AA-8A84-3B287F5651AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-50 arası asyıalrın toplamı", "1-50 arası asyıalrın toplamı\1-50 arası asyıalrın toplamı.csproj", "{CF9C595A-8313-4158-BF55-36FD0EB711B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1-100 arasında 5'e tam bölünen", "1-100 arasında 5'e tam bölünen\1-100 arasında 5'e tam bölünen.csproj", "{9610BA65-E533-4E1D-AFAE-A078C86C428C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekrana 5 tane yıldız yazdırma", "Ekrana 5 tane yıldız yazdırma\Ekrana 5 tane yıldız yazdırma.csproj", "{6BFABE98-0A6E-4526-8D12-5B8CEDEF90BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekrana 5x5 yıldız yazımı", "Ekrana 5x5 yıldız yazımı\Ekrana 5x5 yıldız yazımı.csproj", "{E6107007-3788-4CA5-B15C-BF3FEF97062E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "çöp bakmana gerek yok", "çöp bakmana gerek yok\çöp bakmana gerek yok.csproj", "{A4C38C77-A75D-4821-B20A-143623A34EAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ekrana 1den5 e artan yıldız yazımı", "Ekrana 1den5 e artan yıldız yazımı\Ekrana 1den5 e artan yıldız yazımı.csproj", "{3F6BF34F-8FD5-4B15-BCBF-C669CBC59514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ile500 arası 7 ye bölünebilen", "1ile500 arası 7 ye bölünebilen\1ile500 arası 7 ye bölünebilen.csproj", "{8A72F760-13D3-4AC3-8B42-8A0B5D8BBB3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E618745-1005-4C5B-8231-452226F64AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E618745-1005-4C5B-8231-452226F64AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E618745-1005-4C5B-8231-452226F64AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E618745-1005-4C5B-8231-452226F64AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA37F24-2B4D-4F8D-8D64-45B4EB1F53BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA37F24-2B4D-4F8D-8D64-45B4EB1F53BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA37F24-2B4D-4F8D-8D64-45B4EB1F53BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA37F24-2B4D-4F8D-8D64-45B4EB1F53BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D22490-6382-41AA-8A84-3B287F5651AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D22490-6382-41AA-8A84-3B287F5651AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D22490-6382-41AA-8A84-3B287F5651AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D22490-6382-41AA-8A84-3B287F5651AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9C595A-8313-4158-BF55-36FD0EB711B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9C595A-8313-4158-BF55-36FD0EB711B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9C595A-8313-4158-BF55-36FD0EB711B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9C595A-8313-4158-BF55-36FD0EB711B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9610BA65-E533-4E1D-AFAE-A078C86C428C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9610BA65-E533-4E1D-AFAE-A078C86C428C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9610BA65-E533-4E1D-AFAE-A078C86C428C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9610BA65-E533-4E1D-AFAE-A078C86C428C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFABE98-0A6E-4526-8D12-5B8CEDEF90BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFABE98-0A6E-4526-8D12-5B8CEDEF90BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFABE98-0A6E-4526-8D12-5B8CEDEF90BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFABE98-0A6E-4526-8D12-5B8CEDEF90BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6107007-3788-4CA5-B15C-BF3FEF97062E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6107007-3788-4CA5-B15C-BF3FEF97062E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6107007-3788-4CA5-B15C-BF3FEF97062E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6107007-3788-4CA5-B15C-BF3FEF97062E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C38C77-A75D-4821-B20A-143623A34EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C38C77-A75D-4821-B20A-143623A34EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C38C77-A75D-4821-B20A-143623A34EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C38C77-A75D-4821-B20A-143623A34EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6BF34F-8FD5-4B15-BCBF-C669CBC59514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6BF34F-8FD5-4B15-BCBF-C669CBC59514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6BF34F-8FD5-4B15-BCBF-C669CBC59514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6BF34F-8FD5-4B15-BCBF-C669CBC59514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A72F760-13D3-4AC3-8B42-8A0B5D8BBB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A72F760-13D3-4AC3-8B42-8A0B5D8BBB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A72F760-13D3-4AC3-8B42-8A0B5D8BBB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A72F760-13D3-4AC3-8B42-8A0B5D8BBB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE968EA-6988-4F27-A18A-87AC92F9D0E4}
+	EndGlobalSection
+EndGlobal
