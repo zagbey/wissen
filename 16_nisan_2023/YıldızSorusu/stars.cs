@@ -19,4 +19,4 @@ while (row < 5) // 5 satıra kadar döngü devam edecek
     row++; // satır sayacını artır
 }
 
-  
+    

@@ -19,7 +19,7 @@ while (satir <= 4)
         if (sutun == 5 - satir)
         {
             // yıldız yazdırılıyor
-            Console.Write("*");
+            Console.Write("*"); 
         }
         else
         {
