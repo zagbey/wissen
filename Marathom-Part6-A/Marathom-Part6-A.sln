@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marathon6B", "Marathon6B\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marathon6Bs", "Marathon6Bs\Marathon6Bs.csproj", "{3B2461CF-864B-4661-A45B-E3FBCA9F9CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathon6C", "Marathon6C\Marathon6C.csproj", "{0324985F-35AD-4D44-9C5E-807329DFEB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marathon6C", "Marathon6C\Marathon6C.csproj", "{0324985F-35AD-4D44-9C5E-807329DFEB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marathon6Cs", "Marathon6Cs\Marathon6Cs.csproj", "{2DF38919-8436-4784-A2C1-D6AD0B3ED810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0324985F-35AD-4D44-9C5E-807329DFEB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0324985F-35AD-4D44-9C5E-807329DFEB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0324985F-35AD-4D44-9C5E-807329DFEB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF38919-8436-4784-A2C1-D6AD0B3ED810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF38919-8436-4784-A2C1-D6AD0B3ED810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF38919-8436-4784-A2C1-D6AD0B3ED810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF38919-8436-4784-A2C1-D6AD0B3ED810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

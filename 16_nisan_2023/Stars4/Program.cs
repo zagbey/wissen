@@ -1,7 +1,7 @@
-﻿int maxStars = 9;
-int maxSpaces = 0;
+﻿int maxStars = 1;
+int maxSpaces = 5;
 
-while (maxStars > 0)
+while (maxStars <9 )
 {
     // Bir satırlık işlem başlıyor
     int counter = 0;
@@ -22,6 +22,7 @@ while (maxStars > 0)
 
 
     Console.WriteLine();
-    maxStars -= 2;
-    maxSpaces++;
+    maxStars += 2;
+    maxSpaces--;
+
 }

@@ -1,44 +1,65 @@
-﻿int max = int.MinValue; // En büyük sayıyı tutacak değişkeni int.MinValue ile başlatır.
-int min = int.MaxValue; // En küçük sayıyı tutacak değişkeni int.MaxValue ile başlatır.
-bool end = false; // Döngünün ne zaman durdurulacağını belirleyen bool değişkeni end adıyla tanımlar ve false ile başlatır.
+﻿/* b. Kullanıcıdan istenecek belirsiz miktardaki sayı içerisinden en büyük ve en küçük olanları tespit edip ekrana sonucu yazan programı geliştirin.
+ * Kullanıcıdan toplamda kaç adet sayı alınacağı kullanıcıya bağlı olacak, kullanıcı “end” yazdığında sayı alma işlemi durdurulacak ve sonuçlar ekrana yazdırılacak. 
+ * Ancak kullanıcı minimum 2 sayı yazmak zorundadır. Kullanıcının yazdığı değerlerin sayı olup olmadığının kontrolü yapılmalıdır.
+ * Kullanıcı uygun formatta sayı yazmazsa (“Yirmibeş”, “üç”, “Muhittin”) uyarı döndürülecek ve girilen değer geçersiz sayılacaktır.
+Programı geliştirirken minimum sayıda değişken kullanın, her giriş yapılan değer için değişken oluşturmayın. Ayrıca kodlamada dizi kullanılmayacaktır.
+Program hesaplama ve tespit işlemlerini yaptıktan sonra başa dönecek ve tekrar sayı girişi bekleyecektir. Programı sonlandırmak, kullanıcının “exit” yazmasına bağlı olacaktır.
+NOT: “end” komutu, eğer ki toplamda 2 sayıya ulaşılmadıysa işlevsiz olacaktır ve uyarı döndürecektir. Ancak “exit” komutu herhangi bir anda doğrudan çalışabilir. 
+Ayrıca kullanıcı uygun formatta sayı yazmazsa (“Yirmibeş”, “üç”, “Muhittin”) uyarı döndürülecek ve girilen değer geçersiz sayılacaktır.*/
 
-while (!end) // Döngü end değişkeni true olana kadar çalışır.
+string input = "";
+
+while (input != "exit")
 {
-    Console.Write("Bir sayı girin veya 'end' yazarak işlemi sonlandırın: "); // Kullanıcıya bir mesaj gösterir.
-    string input = Console.ReadLine(); // Kullanıcının girdiği değeri okur ve input adlı bir string değişkene atar.
+    int Maxnumber = int.MinValue;
+    int Minnumber = int.MaxValue;
+    int counter = 0;
 
-    if (input.ToLower() == "end") // Eğer kullanıcı "end" yazarsa
+    while (input.ToLower() != "end" || counter < 2)
     {
-        end = true; // end değişkenini true olarak ayarlar ve döngü sonlandırılır.
-    }
-    else // Aksi takdirde   
-    {
-        int number; // Kullanıcının girdiği değeri int tipinde tutacak bir değişken tanımlar.
-        bool success = int.TryParse(input, out number); // input değişkenini bir tam sayıya dönüştürmeye çalışır. Eğer dönüştürme başarılıysa, dönüştürülen sayı number değişkenine atanır ve success değişkeni true olur. Aksi takdirde, success değişkeni false olur ve number değişkeni varsayılan değeri olan 0 olarak kalır.
-         
-        if (success) // Eğer girdi bir tam sayıya dönüştürülebiliyorsa
+        Console.WriteLine("BİR SAYI GİRİNİZ");
+        input = Console.ReadLine();
+
+        if (input == "exit")
         {
-            if (number > max) // Eğer girdi, şimdiye kadar girilen en büyük sayıdan büyükse
+            break;
+        }
+        if (input == "end" && counter < 2)
+        {
+            Console.WriteLine("En az 2 sayı girii yapmalısınız");
+        }
+        else if (input != "end")
+        {
+            int number;
+            bool result = int.TryParse(input, out number);
+
+            //boolen defoult value is false 
+            if (!result)
             {
-                max = number; // max değişkenini girdiye eşitle.
+                Console.WriteLine("hatalı giriş yaptınız");
+            }
+            else
+            {
+                if (number > Maxnumber)
+                {
+                    Maxnumber = number;
+                }
+                if (number < Minnumber)
+                {
+                    Minnumber = number;
+
+                    counter++;
+                }
             }
 
-            if (number < min) // Eğer girdi, şimdiye kadar girilen en küçük sayıdan küçükse
-            {
-                min = number; // min değişkenini girdiye eşitle.
-            }
         }
-        else // Eğer girdi bir tam sayıya dönüştürülemediyse
-        {
-            Console.WriteLine("Lütfen bir sayı girin."); // Kullanıcıya bir hata mesajı gösterir.
-        }
+
+
     }
+
+    if (input != "exit")
+    {
+        Console.WriteLine("EN BÜYÜK SAYI : {0},EN KÜÇÜK SAYI {1}:", Maxnumber, Minnumber);
+    }
+
 }
-
-if (max != int.MinValue) // Eğer en büyük sayı int.MinValue'dan farklıysa (yani hiç sayı girilmediyse int.MinValue olacaktır)
-{
-    Console.WriteLine("En büyük sayı: " + max); // En büyük sayı
-
-}
-
-
