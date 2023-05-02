@@ -1,0 +1,3 @@
+﻿//trim fonsiyonu anlatımı 
+
+

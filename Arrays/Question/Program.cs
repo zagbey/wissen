@@ -11,8 +11,8 @@ while (loop <= 100)
 {
     if (loop % 3 == 0)
     {
-        Array.Resize(ref numbers, numbers.Length+1);
-        numbers[counter] = loop;
+        Array.Resize(ref numbers, numbers.Length+1); // dizinin boyutunu 1 arttırdık 
+        numbers[counter] = loop;                     // numbers dizisindekideki counterıncı elemana loop değişkenini atıyor 
         counter++;
     }
     loop++;

@@ -28,3 +28,5 @@ while (counterr >= 0)
     Console.WriteLine(inputs[counterr]);
     counterr--;
 }
+
+Console.WriteLine();
