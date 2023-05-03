@@ -16,7 +16,7 @@ if(emailAdress.Contains("g") || emailAdress.Contains("ü"))
     Console.WriteLine("GEÇERSİZ HARF GİRDİNİZ");
 }
 
-//IndexOd 
+//IndexOf
 
 //Bir string ifadede aranılan bir karakterin veya bir stringin kaçıncı indexte gmrüldüğünü gösteren fonskiyondur
 
@@ -35,7 +35,7 @@ int indexofAny = emailAdress.IndexOfAny(invalidChars);
 
 if (indexofAny == -1)
 {
-    Console.WriteLine("tespit edilen geçersin karakter : {0}", emailAdress[indexofAny]);
+    Console.WriteLine("tespit edilen geçersiz karakter : {0}", emailAdress[indexofAny]);
 }
 
 //starsWith-----> şu karakterle şu stringle başlıyor mu 

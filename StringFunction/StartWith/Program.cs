@@ -53,9 +53,9 @@ while (i < wordControl.Length && i < word.Length)
         break;
     }
     i++;
-}
+} 
 
-if (control && wordControl.Length <= word.Length)
+if (control && wordControl.Length <= word.Length) 
 {
     Console.WriteLine("{0} ifadesi {1} kelimesiyle başlıyor.", word, wordControl);
 }

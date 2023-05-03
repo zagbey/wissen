@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringArrays", "StringArray
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlagSolution", "FlagSolution\FlagSolution.csproj", "{E0B1932B-800E-48DB-8DAC-244EDAA2B8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlayTrySİL", "FlayTrySİL\FlayTrySİL.csproj", "{D5FECDBB-5235-4D2E-A3D3-9A1F74997529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleMethods", "FlayTrySİL\ConsoleMethods.csproj", "{D5FECDBB-5235-4D2E-A3D3-9A1F74997529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
