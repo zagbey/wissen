@@ -36,8 +36,7 @@ Console.WriteLine("Sonuçlar: {0}", SquareAndCube(10, 5));
 // 4. PowerOf
 // bir sayının istenen değerdeki kuvvetini hesap eden fonksiyonu yazın
 
-Console.WriteLine("5'in -3. kuvveti: {0}", PowerOf(5, -3));
-
+Console.WriteLine("5'in -3. kuvveti: {0}",(5,3));
 
 string input = Console.ReadLine();
 
@@ -55,7 +54,7 @@ double PowerOf(int number, int power)
     if (power == 0)
         return 1;
 
-    // ternary
+    // ternary öperatörü gösterimi
     int absPower = power < 0
         ? -power // power < 0 true ise bu değer absPower değişkenine atanır
         : power; // false ise bu değer absPower değişkenine atanır
@@ -81,6 +80,7 @@ double PowerOf(int number, int power)
         ? 1 / (double)result
         : result;
 
+
     //if(power < 0)
     //{
     //    return 1 / (double)result;
@@ -90,15 +90,6 @@ double PowerOf(int number, int power)
     //    return result;
     //}
 }
-
-
-
-
-
-
-
-
-
 
 
 // Aşağıdaki örnekler tavsiye edimeyen örneklerdir
@@ -111,3 +102,5 @@ int[] SquareAndCube(int numberForSquare, int numberForCube)
 
     return new int[] { square, cube };
 }
+
+

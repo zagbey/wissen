@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringFunctionExamples", "StringFunctionExamples\StringFunctionExamples.csproj", "{FACAA890-0DEC-4C06-886C-5F76DC6AFDFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{9C0A8C21-91DD-4A78-B301-0E79F90C23F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{9C0A8C21-91DD-4A78-B301-0E79F90C23F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexOf", "IndexOf\IndexOf.csproj", "{A2D124F4-1AC6-4BE9-A562-33E10AFC037E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TernaryExample", "TernaryExample\TernaryExample.csproj", "{519353EF-47E2-406D-B446-BDA4010079C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryExample2", "TernaryExample2\TernaryExample2.csproj", "{9F36C5DA-CA03-4000-8D75-F19BFDC6DBA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{9C0A8C21-91DD-4A78-B301-0E79F90C23F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C0A8C21-91DD-4A78-B301-0E79F90C23F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C0A8C21-91DD-4A78-B301-0E79F90C23F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D124F4-1AC6-4BE9-A562-33E10AFC037E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D124F4-1AC6-4BE9-A562-33E10AFC037E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D124F4-1AC6-4BE9-A562-33E10AFC037E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D124F4-1AC6-4BE9-A562-33E10AFC037E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519353EF-47E2-406D-B446-BDA4010079C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519353EF-47E2-406D-B446-BDA4010079C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519353EF-47E2-406D-B446-BDA4010079C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519353EF-47E2-406D-B446-BDA4010079C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F36C5DA-CA03-4000-8D75-F19BFDC6DBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F36C5DA-CA03-4000-8D75-F19BFDC6DBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F36C5DA-CA03-4000-8D75-F19BFDC6DBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F36C5DA-CA03-4000-8D75-F19BFDC6DBA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
