@@ -59,8 +59,10 @@ while (index < copystrings.Length)
 {
     if (strings[index] == copystrings[index])
     {
-        Console.Write("{0}\t", copystrings[index]);
+        //Console.Write("{0}", copystrings[index]);
     }
+    string column01 = strings[index].PadRight(20);
+    Console.Write(column01);
     Console.WriteLine("{0}", strings[index]);
     index++;
 }

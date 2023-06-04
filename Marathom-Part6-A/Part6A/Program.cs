@@ -3,7 +3,7 @@ Programı geliştirirken minimum sayıda değişken kullanın, her giriş yapıl
 Program bir kez hesap yaptıktan sonra herhangi bir tuşa basıldığında sonlanacaktır.
 */
 
-Console.WriteLine("bir sayı giriniz");
+//Console.WriteLine("bir sayı giriniz");
 int counter = 1;
 int maxNumber = int.MinValue;
 int minNumber = int.MaxValue;

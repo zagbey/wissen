@@ -20,7 +20,7 @@ int counter = copystrings.Length - 1;
 index = 0;
 while (index < copystrings.Length)
 {
-    Console.Write("{0}\t\"{1}\"\t", index, copystrings[index]);
+    Console.Write("{0}\"{1}\"", index.ToString().PadRight(4), copystrings[index].PadRight(20));
     Console.WriteLine("\"{0}\"", strings[counter]);
     counter--;
     index++;

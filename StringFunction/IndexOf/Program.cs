@@ -10,7 +10,8 @@ while (index < text.Length)
 {
     if (text[index] == letter)
     {
-        indexOfLetter = index; break;
+        indexOfLetter = index;
+        break;
     }
 
 }

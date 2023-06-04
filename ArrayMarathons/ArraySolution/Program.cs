@@ -75,7 +75,7 @@ int[] values = new int[]
     10,20,30,40,50,60,70,80,90
 };
 
-Console.Write("****1dizi2\t2.dizi*****");
+Console.WriteLine("****1dizi2\t2.dizi*****");
 
 int index5 = 0;
 while (index5 < values.Length)

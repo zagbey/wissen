@@ -9,7 +9,7 @@ Ayrıca kullanıcı uygun formatta sayı yazmazsa (“Yirmibeş”, “üç”, 
 
 string input = "";
 
-while (input != "exit")
+while (input.ToLower() != "exit")
 {
     int Maxnumber = int.MinValue;
     int Minnumber = int.MaxValue;

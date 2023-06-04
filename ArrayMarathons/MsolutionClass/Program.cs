@@ -14,3 +14,23 @@ while (index < ints.Length)
 int[] copyints = new int[0];
 
 for (int i = 0; i < ints.Length; i++)
+{
+    if (ints[i] %5 == 0)
+    {
+        Array.Resize(ref copyints, ints.Length + 1);
+        copyints[copyints.Length - 1] = ints[i];
+    }
+}
+Array.Sort(copyints);
+
+for (int counter = 0;counter < ints.Length; counter++)
+{
+    Console.Write("[{0}]",counter.ToString().PadRight(4));
+    Console.Write(ints[counter].ToString().PadRight(20));
+
+    if (counter < copyints.Length)
+    {
+        Console.Write(copyints[counter]);
+    }
+    Console.WriteLine();
+}

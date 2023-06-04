@@ -27,27 +27,52 @@ while (index < name.Length)
     //boşluk karakterine geldiğimizde ekrana boşluk yazdırıp flag değişkenini
     //true olarak set ediliyor.Yani bir sonrai adımda * karakteri yerine 
    *///karakterin kendisi yazılabilir bilgisi ulaşıyor 
-    Console.WriteLine("\n**********************************\n");
-    // T****** O****
-    string name = "Tsubasa Ozora";
-    bool flag = true;
-    index = 0;
-    while (index < name.Length)
-    {
-        if (name[index] == ' ')
-        {
-            Console.Write(name[index]);
-            flag = true;
-        }
-        else if (flag)
-        {
-            Console.Write(name[index]);
-            flag = false;
-        }
-        else
-        {
-            Console.Write('*');
-        }
+/* Console.WriteLine("\n**********************************\n");
+ // T****** O****
+ string name = "Tsubasa Ozora";
+ bool flag = true;
+ index = 0;
+ while (index < name.Length)
+ {
+     if (name[index] == ' ')
+     {
+         Console.Write(name[index]);
+         flag = true;
+     }
+     else if (flag)
+     {
+         Console.Write(name[index]);
+         flag = false;
+     }
+     else
+     {
+         Console.Write('*');
+     }
 
-        index++;
+     index++;
+ }*/
+
+string name = "Zeynel Abidin Gencer";
+bool flag = true;
+index = 0;
+
+while (index < name.Length)
+{
+    if (name[index] == ' ')
+    {
+        Console.Write(' ');
+        flag = true;
     }
+
+    else if (flag)
+    {
+        Console.Write(name[index]);
+        flag = false; 
+    }
+    else
+    {
+        Console.Write("*");
+    }
+    
+    index++; 
+}

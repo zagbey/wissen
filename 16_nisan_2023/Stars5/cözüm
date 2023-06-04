@@ -1,0 +1,37 @@
+﻿/*
+5. Aşağıdaki çıktıyı ekrana yazdıracak programı geliştirin
+
+*******
+ *****
+  ***
+   *
+
+ */
+
+int maxStars = 9;
+int maxSpaces = 0;
+
+while(maxStars > 0)
+{
+    // Bir satırlık işlem başlıyor
+    int counter = 0;
+    int spaceCounter = 0;
+
+    while(spaceCounter < maxSpaces)
+    {
+        Console.Write(" ");
+        spaceCounter++;
+    }
+
+    while (counter < maxStars)
+    {
+        Console.Write("*");
+        counter++;
+    }
+    // Bir satırlık işlem bitiyor
+
+
+    Console.WriteLine();
+    maxStars -= 2;
+    maxSpaces++;
+}

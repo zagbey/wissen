@@ -9,24 +9,29 @@ int nameindex = name.Length - 1;
 
 bool endsWith = true;
 
-
-while (searchindex >= 0)
+do
 {
-    if (name[nameindex] != searchname[searchindex])
+    while (searchindex >= 0)
     {
-        endsWith = false;
-        break;
+        if (name[nameindex] != searchname[searchindex])
+        {
+            endsWith = false;
+            break;
 
+        }
+        nameindex--;
+        searchindex--;
     }
-    nameindex--;
-    searchindex--;
-}
 
-if  (endsWith && searchname.Length <= name.Length)
-{
-    Console.WriteLine("{0} İFADESİ {1} İFADESİ İLE BİTMEKTEDİR.",name,searchname);
-}
-else
-{
-    Console.WriteLine("{0} İFADESİ {1} İFADESİ İLE BİTMEMEKTEDİR.", name, searchname);
-}
+    if (endsWith && searchname.Length <= name.Length)
+    {
+        Console.WriteLine("{0} İFADESİ {1} İFADESİ İLE BİTMEKTEDİR.", name, searchname);
+    }
+    else
+    {
+        Console.WriteLine("{0} İFADESİ {1} İFADESİ İLE BİTMEMEKTEDİR.", name, searchname);
+    }
+
+
+} while (true);
+

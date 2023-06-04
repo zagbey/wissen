@@ -1,12 +1,11 @@
 ﻿string[] players = new string[]
 {
     "Tsubasa",
-    "Tsubasa1",
-    "Tsubasa2",
-    "Tsubasa3",
-    "Tsubasa4",
-    "Tsubasa5",
-    "Tsubasa6",
+    "Misaki",
+    "Hyuga",
+    "Wakayabashi",
+    "Sawada"
+ 
 };
 //çift değerler 
 string[] evenIndexValues = new string[0];
@@ -23,7 +22,7 @@ for(int i = 0;i<players.Length; i++)
     else
     {
         Array.Resize(ref oddIndexValues, oddIndexValues.Length + 1);
-        evenIndexValues[oddIndexValues.Length - 1] = players[i];
+        oddIndexValues[oddIndexValues.Length - 1] = players[i];
     }
 }
 

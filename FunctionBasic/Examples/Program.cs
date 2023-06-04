@@ -36,18 +36,21 @@ Console.WriteLine("Sonuçlar: {0}", SquareAndCube(10, 5));
 // 4. PowerOf
 // bir sayının istenen değerdeki kuvvetini hesap eden fonksiyonu yazın
 
-Console.WriteLine("5'in -3. kuvveti: {0}",(5,3));
+//Console.WriteLine("5'in -3. kuvveti: {0}",(5,3));
 
-string input = Console.ReadLine();
+//string input = Console.ReadLine();
 
-if (input.ToLower() == "Öğrenci")
+//if (input.ToLower() == "Öğrenci")
 {
-    Console.WriteLine("Öğrencilere bilet satışı mevcut değildir");
+    //Console.WriteLine("Öğrencilere bilet satışı mevcut değildir");
 }
-else
-{
-    Console.WriteLine("Bilet satın almak için tıklayın");
-}
+//else
+//{
+//    Console.WriteLine("Bilet satın almak için tıklayın");
+////}
+
+//double sonuc = PowerOf(5, 2);
+Console.WriteLine(PowerOf(5,2));
 
 double PowerOf(int number, int power)
 {
